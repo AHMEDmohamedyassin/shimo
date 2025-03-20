@@ -14,12 +14,10 @@ function App() {
 
       <div className='max-w-screen-xl px-4 mx-auto '>
 
-        <BrowserRouter>
           <Routes>
             <Route path='/'  element={<HomePage/>}/>
             <Route path='/portfolio'  element={<PortfolioPage/>}/>
           </Routes>
-        </BrowserRouter>
 
       </div>
 
