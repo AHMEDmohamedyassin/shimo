@@ -7,6 +7,59 @@
         {
             "path" : "/portfolio" , 
             "title" : "السيرة الذاتية"
+        },
+        {
+            "path" : "/contact" , 
+            "title" : "بيانات الاتصال"
+        }
+    ] , 
+    "contacts" : [
+        {
+            "icon" : "phone-icon-here"  , 
+            "value" : "01066404523" , 
+            "href" : "tel:01066404523"
+        }
+    ],
+    "portfolio" : [
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg"
+        },
+        {
+            "title" : "السيرة الذاتية رقم 1" ,
+            "description" : "وصف السيرة الذاتية " ,
+            "image" : "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg"
         }
     ]
 }

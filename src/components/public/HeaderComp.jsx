@@ -26,8 +26,7 @@ const HeaderComp = () => {
                         {
                             database?.routes?.map((e , index) => (
                                 <li key={index}>
-                                    <Link to={e.path} >{e.title}</Link>
-                                    {/* <a  className="text-gray-900 dark:text-white hover:underline" aria-current="page">{e.title}</a> */}
+                                    <Link to={e.path} className="text-gray-900 dark:text-white hover:underline">{e.title}</Link>
                                 </li>
                             ))
                         }
