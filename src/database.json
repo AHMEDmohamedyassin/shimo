@@ -36,6 +36,11 @@
             "icon" : "fa-solid fa-phone-volume"  , 
             "value" : "01055069293" , 
             "href" : "tel:01055069293"
+        },
+        {
+            "icon" : "fa-brands fa-facebook"  , 
+            "value" : "صفحة الفيس بوك" , 
+            "href" : "https://www.facebook.com/shaimaa.attia.92"
         }
     ],
     "portfolio" : [
