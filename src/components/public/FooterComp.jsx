@@ -1,5 +1,6 @@
 import React from 'react'
 import database from '../../database.json'
+import { Link } from 'react-router-dom'
 
 const FooterComp = () => {
   return (
@@ -8,10 +9,10 @@ const FooterComp = () => {
         <footer className="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4 mt-10 mb-0">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                    </a>
+                    <Link to={'/'}  className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" /> */}
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Shimo</span>
+                    </Link>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         {
                             database.routes?.map((e , index) => (
