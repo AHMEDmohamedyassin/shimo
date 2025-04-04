@@ -11,7 +11,7 @@ const PortfolioPage = () => {
 
         <PortofolioDataComp/>
 
-        {
+        {/* {
           database.portfolio?.length ? (
             <>
               <SeparatorComp/>
@@ -19,7 +19,7 @@ const PortfolioPage = () => {
               <GalleryComp/>
             </>
           ) : <div className='font-bold text-sm text-center text-red-500'>لا يوجد بيانات حاليا</div>
-        }
+        } */}
     </>
   )
 }

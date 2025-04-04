@@ -5,6 +5,7 @@ import HeaderComp from './components/public/HeaderComp'
 import HomePage from './pages/HomePage'
 import PortfolioPage from './pages/PortfolioPage'
 import ContactPage from './pages/ContactPage'
+import AboutPage from './pages/AboutPage'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/'  element={<HomePage/>}/>
             <Route path='/portfolio'  element={<PortfolioPage/>}/>
             <Route path='/contact'  element={<ContactPage/>}/>
+            <Route path='/about'  element={<AboutPage/>}/>
           </Routes>
 
       </div>

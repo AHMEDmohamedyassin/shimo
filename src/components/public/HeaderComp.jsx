@@ -13,7 +13,7 @@ const HeaderComp = () => {
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                 </a>
                 <div className="flex items-center space-x-6 rtl:space-x-reverse">
-                    <a href="tel:5541251234" className="text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
+                    <a href={`tel:${database.main_phone}`} className="text-sm  text-gray-500 dark:text-white hover:underline">{database.main_phone}</a>
                     {/* <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a> */}
                     <div><DarkModeButtonComp/></div>
                 </div>
