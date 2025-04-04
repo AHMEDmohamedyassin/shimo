@@ -37,7 +37,7 @@ const CarouselComp = () => {
                             </div>
                             {/* image  */}
                             <div className='flex-1 relative w-full h-full'>
-                                <img src={data.image ?? database.default_img} className="absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 rounded-full h-[90%] w-[90%] shadow-xl shadow-gray-500/50 border-gray-500 border-[1px]" alt={data.title}/>
+                                <img src={data.image ?? database.default_img} className=" object-cover object-top absolute top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 rounded-full h-[90%] w-[90%] shadow-xl shadow-gray-500/50 border-gray-500 border-[1px]" alt={data.title}/>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ const CarouselComp = () => {
                             </div>
                             {/* image  */}
                             <div className='absolute top-0 left-0 w-full h-full rounded-xl overflow-hidden'>
-                                <img src={data.image} className="h-full object-cover object-center" alt={data.title}/>
+                                <img src={data.image ?? database.default_img} className="h-full object-cover object-center" alt={data.title}/>
                             </div>
                         </div>
 

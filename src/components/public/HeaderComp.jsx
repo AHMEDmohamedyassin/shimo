@@ -21,12 +21,12 @@ const HeaderComp = () => {
         </nav>
         <nav className="bg-gray-50 dark:bg-gray-700">
             <div className="max-w-screen-xl px-4 py-3 mx-auto">
-                <div className="flex items-center">
-                    <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
+                <div className="">
+                    <ul className="flex flex-row flex-wrap font-medium mt-0 gap-x-8 gap-y-2 text-sm">
                         {
                             database?.routes?.map((e , index) => (
                                 <li key={index}>
-                                    <Link to={e.path} className="text-gray-900 dark:text-white hover:underline">{e.title}</Link>
+                                    <Link to={e.path} className="text-gray-900 dark:text-white hover:underline text-nowrap">{e.title}</Link>
                                 </li>
                             ))
                         }
