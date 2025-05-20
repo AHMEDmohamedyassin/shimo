@@ -58,7 +58,7 @@ const CarouselComp = () => {
                                 <p className='text-gray-700 font-semibold'>{data.description}</p>
                             </div>
                             {/* image  */}
-                            <div className='w-2/4 aspect-video rounded-xl overflow-hidden -rotate-12'>
+                            <div className='w-2/4 aspect-video rounded-xl overflow-hidden'>
                                 <img src={data.image ?? database.default_img} className="object-contain" alt={data.title}/>
                             </div>
                         </div>
